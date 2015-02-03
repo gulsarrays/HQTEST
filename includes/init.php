@@ -9,6 +9,9 @@ require_once __DIR__."/../includes/classes/db.php";
 $db = new DBClass(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 
+// Include the composer Autoloader
+// The location of your project's vendor autoloader.
+$composerAutoload = dirname(dirname(dirname(__DIR__))) . '/autoload.php';
 if (!file_exists($composerAutoload)) {
     //If the project is used as its own project, it would use rest-api-sdk-php composer autoloader.
     $composerAutoload = dirname(__DIR__) . '/vendor/autoload.php';
