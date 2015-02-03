@@ -1,0 +1,12 @@
+Hello,
+
+In this Test I make the use of OPPS concets in coding , using OPPS inheritance for careteing new payment module class
+So we can add any new payment module without disturbing the other code. While adding new payment gatway to lib, just need to extendt teh base PaymentLib class. So This is flexible to add any number of payment gatway to library.
+
+I had make the use of composer dependency manager to download the dependenacy code like paypal lib or braintree library.
+
+Here I had write the UNIT tests with PHPUnit. So this cover the unit test. i didn't write tets for payment gatways and DB connection. Write Test cases for user input data and the selection of payment gatways as per the conditions given to us for this assignment for user input data.
+
+Thanks
+Gulmohar
+
