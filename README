@@ -7,6 +7,8 @@ I had make the use of composer dependency manager to download the dependenacy co
 
 Here I had write the UNIT tests with PHPUnit. So this cover the unit test. i didn't write tets for payment gatways and DB connection. Write Test cases for user input data and the selection of payment gatways as per the conditions given to us for this assignment for user input data.
 
+Don't forget to make changes in includes/config.php file
+
 Thanks
 Gulmohar
 
