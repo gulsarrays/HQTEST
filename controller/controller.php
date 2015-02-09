@@ -9,7 +9,7 @@ require_once __DIR__ . "/../includes/classes/paypal_class.php";
 $payment_gateway = new PaymentLib();
 // collect all the post data into variables
 $credit_card_params = $payment_gateway->collectCreditCardParemeter();
-$payment_method = $payment_gateway->myPaymentGateway($credit_card_params['type'], $credit_card_params['currency']);
+$payment_method = $payment_gateway->myPaymentGateway($credit_card_params['card_type'], $credit_card_params['currency']);
 
 if ($payment_method === 'paypal') {
     $payment_gateway_paypal = new g_paypal_rest_api_payment();

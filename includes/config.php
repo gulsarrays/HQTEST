@@ -4,7 +4,7 @@
  */
 define('DB_HOST', '127.0.0.1');
 define('DB_USER', 'root');
-define('DB_PASS', 'xxxxxx');
+define('DB_PASS', 'dev@123');
 define('DB_NAME', 'hqtest');
 
 define('DB_TABLE', 'hqtest_order');
