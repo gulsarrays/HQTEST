@@ -98,7 +98,7 @@
                     <div class="form-group ">
                         <label for="inputcustomer_name" class="col-sm-3 control-label">Card Number:</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" placeholder="Credit Card Number" name="cc_number" id="cc_number" value = "4417119669820331" data-validation="number" data-validation-length="12-19" data-validation-error-msg="Contain only numbers!"/>
+                            <input type="text" class="form-control" placeholder="Credit Card Number" name="cc_number" id="cc_number" value = "4005519200000004" data-validation="number" data-validation-length="12-19" data-validation-error-msg="Contain only numbers!"/>
                         </div>
                     </div>
                     <div class="form-group ">
